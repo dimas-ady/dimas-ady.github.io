@@ -1,0 +1,30 @@
+@font-face{
+  font-family: Quicksand;
+  src: url("font/static/Quicksand-Regular.ttf");
+}
+
+@font-face{
+  font-family: Poppins;
+  src: url("font/poppins/Poppins-Regular.otf");
+}
+
+body{
+  font-family: Poppins;
+}
+
+nav{
+  font-family: Quicksand;
+}
+
+::selection{
+  color: white;
+  background-color: #0084FF;
+}
+
+.bg-darkmode{
+  background-color: #1D2028;
+}
+
+.bg-darkmode-content{
+  background: #21272E;
+}
